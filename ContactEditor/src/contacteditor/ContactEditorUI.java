@@ -62,19 +62,11 @@ public class ContactEditorUI extends javax.swing.JFrame {
 
         jLabel1.setText("First name:");
 
-        jTextField1.setText("jTextField1");
-
         jLabel2.setText("Last name:");
-
-        jTextField2.setText("jTextField2");
 
         jLabel3.setText("Title:");
 
         jLabel4.setText("Nickname:");
-
-        jTextField3.setText("jTextField3");
-
-        jTextField4.setText("jTextField4");
 
         jLabel5.setText("Display Format:");
 
@@ -90,14 +82,14 @@ public class ContactEditorUI extends javax.swing.JFrame {
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jLabel1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(jLabel3)
                                 .addGap(9, 9, 9)
-                                .addComponent(jTextField3)))
-                        .addGap(18, 18, 18)
+                                .addComponent(jTextField3))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 147, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(jLabel2)
